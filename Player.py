@@ -123,4 +123,3 @@ class Player(GameObject):
             self.animCount += 1
         else:
             win.blit(playerStand, (self.rect.x, self.rect.y))
-
